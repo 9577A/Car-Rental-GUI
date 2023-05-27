@@ -1,8 +1,7 @@
 import mysql.connector
 
 
-"""
-#
+# creates your database
 cr = mysql.connector.connect(
     host='localhost',	#your host name
     user='root',	#your user name
@@ -10,7 +9,7 @@ cr = mysql.connector.connect(
 )
 crcursor = cr.cursor()
 crcursor.execute("CREATE DATABASE Car_Rental_Company")
-"""
+
 
 db = mysql.connector.connect(
     host='localhost',
