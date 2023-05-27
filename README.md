@@ -16,7 +16,14 @@ The Car Rental GUI offers the following features:
 The primary goals of this project are to showcase the integration of a MySQL database with a GUI and to demonstrate the implementation of car rental functionalities. 
 By providing a user-friendly interface, the project aims to simulate real-world car rental scenarios, ensuring data integrity and preventing conflicting reservations.
 
-## How to use it
-Firstly you have to have mysql database already installed. You have to edit database_setup.py file by filling in your database information (host name, user and password), and then run it.
-Since I didn't create super user, you will have to insert specific car models into car table. 
-<br/> After that your ready to register and use the app freely.
+## How to Use It
+
+Before using the Car Rental GUI, ensure that you have MySQL database installed on your system. Follow these steps to get started:
+
+1. Edit the `database_setup.py` file: Open the `database_setup.py` file and fill in your MySQL database information, including the host name, username, and password. Save the file after making the necessary changes.
+
+2. Run the `database_setup.py` file: Execute the `database_setup.py` file to create the required database structure and tables. This step will initialize the database for the Car Rental GUI application.
+
+3. Insert car models: As the super user functionality is not implemented, you need to manually insert car models into the "car" table of the database. This step ensures that the available car models are populated in the application.
+
+Register and start using the app: Once the database setup is complete and the car models are inserted, you are ready to register and freely use the Car Rental GUI application. Create a new user account, log in, and begin exploring the features such as reserving cars for specific dates and managing your reservations.
