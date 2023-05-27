@@ -19,4 +19,4 @@ By providing a user-friendly interface, the project aims to simulate real-world 
 ## How to use it
 Firstly you have to have mysql database already installed. You have to edit database_setup.py file by filling in your database information (host name, user and password), and then run it.
 Since I didn't create super user, you will have to insert specific car models into car table. 
-*After that your ready to register and use the app freely.
+<br/> After that your ready to register and use the app freely.
